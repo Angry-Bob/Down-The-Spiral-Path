@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Contact from "./components/Contact"
 import Astrology from './components/Astrology'
@@ -18,30 +16,20 @@ import TarotCards from './components/TarotCards'
 import TarotItemPage from './components/TarotItemPage'
 import TarotReadingItem from './components/TarotReadingItem'
 import TarotReadings from './components/TarotReadings'
-
-
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Astrology />
-      <AstrologyReading />
-      <Contact />
-      <Login />
-      <Merchandise />
-      <MerchItem />
-      <Purchase />
-      <Shop />
-      <ShoppingCart />
+      <Header />
+      
       <Signin />
-      <Tarot />
-      <TarotCards />
-      <TarotItemPage />
-      <TarotReadingItem />
-      <TarotReadings />
-      <User />
+      <br/>
+      <Footer />
     </>
   )
 }
