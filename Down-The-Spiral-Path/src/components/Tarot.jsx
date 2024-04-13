@@ -2,6 +2,12 @@ import React from 'react'
 
 export default function Tarot() {
   return (
-    <div>Tarot</div>
+ 
+    <div className='tarot'>
+      <h3>Tarot</h3>
+    </div>
+    
+
+
   )
 }

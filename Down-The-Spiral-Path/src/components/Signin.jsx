@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function Signin() {
   return (
-    <div><h3>Sign up, and receive a free tarot reading!</h3>
+    <div className='form'>
+      <h3 className='promo'>Sign up, and receive a free tarot reading!</h3>
     <form>
       <label>First name<br/>
         <input type="text" /><br/>
